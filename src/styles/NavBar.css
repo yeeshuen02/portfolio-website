@@ -1,0 +1,20 @@
+.navbar {
+  width: 100%;
+  background-color: #ffcfdb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 7%;
+}
+
+.logo {
+  height: 35px;
+}
+
+ul a {
+  font-weight: 500;
+  font-size: 20px;
+  color: #151345;
+  padding: 30px;
+  text-decoration: none;
+}
