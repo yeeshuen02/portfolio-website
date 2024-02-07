@@ -6,15 +6,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  min-height: 100vh;
-  color: #151345;
-  background-color: white;
-}
-
 html,
 body {
   width: 100%;
@@ -22,4 +13,10 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  color: #151345;
+  background-color: white;
 }

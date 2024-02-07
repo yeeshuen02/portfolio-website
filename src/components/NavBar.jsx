@@ -9,8 +9,8 @@ function NavBar() {
       <ul>
         <Link to="#home">Home</Link>
         <Link to="#about">About</Link>
-        <Link to="#home">Skills</Link>
-        <Link to="#home">Projects</Link>
+        <Link to="#skills">Skills</Link>
+        <Link to="#projects">Projects</Link>
       </ul>
     </div>
   );
