@@ -12,7 +12,7 @@ function Hero() {
         <h1>Yee Shuen :)</h1>
 
         <div className="links">
-          <button>View Resume</button>
+          <button>Download CV</button>
           <img src={linkedin} alt="link to linkedin" />
           <img src={github} alt="link to github" />
         </div>
