@@ -24,7 +24,7 @@
   width: 128px;
 }
 .skill:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #d1e9ff);
 }
 
 .skill img {
@@ -42,4 +42,14 @@
   flex-wrap: wrap;
   gap: 40px;
   padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .skill {
+    width: 88px;
+  }
+
+  .skill img {
+    width: 40px;
+  }
 }

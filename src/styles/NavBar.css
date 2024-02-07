@@ -1,23 +1,86 @@
 .navbar {
   width: 100%;
   background-color: #ffcfdb;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 7%;
-
   position: sticky;
   top: 0;
 }
 
-.logo {
-  height: 35px;
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 7%;
 }
 
-ul a {
+.links .logo {
+  height: 35px;
+  width: 278px;
+}
+
+.links ul a {
   font-weight: 500;
   font-size: 20px;
   color: #151345;
   padding: 30px;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.toggleButton {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.toggleButton svg {
+  font-size: 50px;
+}
+.toggleButton button {
+  margin-right: 15px;
+  background-color: transparent;
+  border: none;
+  color: #151345;
+  cursor: pointer;
+}
+
+#open {
+  height: 100vh;
+}
+
+#open .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#open a {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .toggleButton {
+    display: flex;
+  }
+  #close .links {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .toggleButton {
+    display: none;
+  }
+
+  .hiddenLinks {
+    display: none;
+  }
+
+  #open .links {
+    flex-direction: column;
+  }
 }

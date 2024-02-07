@@ -61,7 +61,16 @@ button:hover {
 }
 
 @media only screen and (max-width: 600px) {
+  .hero {
+    padding: 20px, 5%;
+    height: 40em;
+  }
+
   .profile {
     display: none;
+  }
+
+  .links button {
+    font-size: 20px;
   }
 }

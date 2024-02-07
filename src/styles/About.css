@@ -41,4 +41,12 @@
     flex-direction: column;
     gap: 20px;
   }
+
+  .roles {
+    width: 250px;
+  }
+
+  .about p {
+    font-size: 1em;
+  }
 }
