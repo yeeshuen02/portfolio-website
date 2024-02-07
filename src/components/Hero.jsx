@@ -13,8 +13,12 @@ function Hero() {
 
         <div className="links">
           <button>Download CV</button>
-          <img src={linkedin} alt="link to linkedin" />
-          <img src={github} alt="link to github" />
+          <a href="https://www.linkedin.com/in/ang-yee-shuen/" target="_blank">
+            <img src={linkedin} alt="link to linkedin" />
+          </a>
+          <a href="https://github.com/yeeshuen02" target="_blank">
+            <img src={github} alt="link to github" />
+          </a>
         </div>
       </div>
 

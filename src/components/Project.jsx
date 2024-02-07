@@ -1,4 +1,4 @@
-function Project({ image, title, description, tech, isReverse }) {
+function Project({ image, title, description, tech, link, isReverse }) {
   return (
     <div className={`project ${isReverse ? "reverse" : ""}`}>
       <div className="project-img">
@@ -8,7 +8,9 @@ function Project({ image, title, description, tech, isReverse }) {
         <h4>{title}</h4>
         <p>{description}</p>
         <li>{tech}</li>
-        <button>View Code</button>
+        <a href={link} target="_blank">
+          <button>View Code</button>
+        </a>
       </div>
     </div>
   );
