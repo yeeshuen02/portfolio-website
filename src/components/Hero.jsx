@@ -12,7 +12,12 @@ function Hero() {
         <h1>Yee Shuen :)</h1>
 
         <div className="links">
-          <button>Download CV</button>
+          <a
+            href="https://drive.google.com/file/d/1fdKfnoSZU96rwqscESBIGe92asbErc_a/view?usp=drive_link"
+            target="_blank"
+          >
+            <button>View Resume</button>
+          </a>
           <a href="https://www.linkedin.com/in/ang-yee-shuen/" target="_blank">
             <img src={linkedin} alt="link to linkedin" />
           </a>

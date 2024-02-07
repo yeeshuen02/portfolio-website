@@ -6,7 +6,7 @@ function About() {
     <section className="about" id="about">
       <h1>About Me</h1>
       <p>
-        As a final-year computer science student with an passion for continuous
+        As a final-year computer science student with a passion for continuous
         learning and a curiosity that extends beyond technology, I am knowledge
         in UI/UX design, front-end web development with React and machine
         learning with Python and R. My academic journey has instilled in me

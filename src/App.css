@@ -25,6 +25,13 @@ button {
   transition: background-color 0.25s;
 }
 
+.footer {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffcfdb;
+}
+
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 40px;
