@@ -1,5 +1,3 @@
-import React from "react";
-import pythonImg from "../assets/skills/python.png";
 import "../styles/Skills.css";
 import Skill from "./Skill.jsx";
 import { LANGUAGES, TECHNOLOGIES } from "../data";

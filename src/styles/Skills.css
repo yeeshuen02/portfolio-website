@@ -23,6 +23,9 @@
   padding: 1.5em;
   width: 128px;
 }
+.skill:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
 
 .skill img {
   display: flex;
