@@ -13,7 +13,7 @@ function Hero() {
 
         <div className="links">
           <a
-            href="https://drive.google.com/file/d/1fdKfnoSZU96rwqscESBIGe92asbErc_a/view?usp=drive_link"
+            href="https://drive.google.com/file/d/18DjTK9hCAJ2j6emmvgOMhS7dVjSt6VP-/view?usp=sharing"
             target="_blank"
           >
             <button>View Resume</button>
